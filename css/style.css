@@ -294,7 +294,36 @@
     border: 1px solid #FF900E;
     border-radius: 8px;
     padding: 25px 20px;
+    /* animation start here */
+    animation-name: animi;
+    animation-duration: 23s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: inherit;
 }
+
+@keyframes animi{
+    0%{
+        /* background-color: #424242; */
+    }
+    25%{
+        border: 1px solid #3766ff;
+        transform: skew(15deg);
+    }
+    50%{
+        border: 1px solid #ff3a17;
+        transform: scale(1.2);
+    }
+    75%{
+        border: 1px solid #acff86;
+        transform: rotate(360deg);
+    }
+    100%{
+        border: 1px solid rgb(0, 255, 255);
+    }
+}
+
+
 
 .fact-card img {
     margin-bottom: 9px;
@@ -418,9 +447,16 @@
     justify-content: space-between;
 }
 
-.Sponspors-images img {
+.Sponspor-img img {
+    cursor: pointer;
+    transition: all 0.2s linear;
     filter: grayscale(100%);
 }
+
+.Sponspor-img>img:hover {
+    filter: grayscale(0);
+}
+
 
 
 /* -- footer -- */
