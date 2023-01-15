@@ -295,11 +295,11 @@
     border-radius: 8px;
     padding: 25px 20px;
     /* animation start here */
-    /* animation-name: animi;
+    animation-name: animi;
     animation-duration: 23s;
     animation-iteration-count: infinite;
     position: relative;
-    animation-direction: inherit; */
+    animation-direction: inherit;
 }
 
 @keyframes animi{
