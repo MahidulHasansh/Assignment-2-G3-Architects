@@ -389,7 +389,9 @@
 
 /* -- our Sponspors -- */
 
-.our-sponspors {}
+.our-sponspors {
+    margin-bottom: 130px;
+}
 
 .Sponspors-title {
     margin-bottom: 50px;
@@ -420,3 +422,22 @@
     filter: grayscale(100%);
 }
 
+
+/* -- footer -- */
+.foot {
+    margin-bottom: 130px;
+    text-align: center;
+}
+
+.footer-text {
+    border-radius: 5px;
+    background-color: #1c8ced0a;
+    padding: 38px 0px;
+    box-shadow: 0px 0px 40px rgba(138, 138, 138, 0.192);
+}
+
+.footer-text p {
+    font-weight: 400;
+    font-size: 16px;
+
+}
