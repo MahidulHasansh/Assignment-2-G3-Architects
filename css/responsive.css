@@ -1297,3 +1297,45 @@
 
 }
 
+
+/* XX-Large devices (desktops, 993px and up) */
+@media screen and (min-width:1201px) and (max-width: 1400px){
+    /* banner */
+    .banner-text p {
+        padding: 0px 150px;
+    }
+
+    /* some facts */
+    .facts-title p {
+        padding-right: 500px;
+    }
+
+    /* -- our Sponspors -- */
+    .Sponspors-title p {
+        padding: 0px 200px;
+    }
+
+    /* feature  */
+    .feature-img-title {
+        bottom: 25%;
+        left: -30px;
+    }
+}
+
+
+/* XXX-Large devices (desktops, 993px and up) */
+@media screen and (min-width:1401px){
+    .feature-img-title {
+        bottom: 15%;
+        left: -30px;
+    }
+}
+
+/* XXXX-Large devices (desktops, 993px and up) */
+@media screen and (min-width:1701px){
+    .feature-img-title {
+        bottom: -5%;
+        left: -30px;
+    }
+}
+
