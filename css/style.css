@@ -343,6 +343,7 @@
 
 .work-card img {
     width: 100%;
+    height: 300px;
     /* border-radius: 5px; */
 }
 
@@ -371,17 +372,51 @@
     line-height: 22px;
 }
 
-.moreon-btn{
+.moreon-btn {
     text-align: right;
     margin-top: 50px;
 }
 
-.moreon-btn button{
+.moreon-btn button {
     padding: 0;
     color: rgba(255, 77, 45, 0.911);
     background-color: transparent;
 }
 
-.moreon-btn button i{
+.moreon-btn button i {
     margin-left: 10px;
 }
+
+/* -- our Sponspors -- */
+
+.our-sponspors {}
+
+.Sponspors-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.Sponspors-title h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 15px;
+}
+
+.Sponspors-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding: 0px 430px;
+}
+
+.Sponspors-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Sponspors-images img {
+    filter: grayscale(100%);
+}
+
